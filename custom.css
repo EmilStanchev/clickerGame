@@ -1,0 +1,58 @@
+.heading{
+    border-radius: 50%;
+    text-align: center;
+}
+
+.wrapper{
+    width: 100%;
+}
+
+
+ .avatarMale{
+    display: inline-block;
+    margin-top: 2%;
+    margin-left: 1%;
+    width: 40%;
+}
+
+ .avatarMale img{    
+    width: 80%;
+    display: inline-block;
+
+}
+ .avatarMale button{
+    text-align: center;
+    position: relative;
+    right: 46%;
+    width: 12%;
+    background-color: orange;
+    font-size: 150%;
+}
+.avatarFemale{
+    display: inline-block;
+    width: 40%;
+    margin-left:10%;
+
+}
+.avatarFemale img{
+    width: 100%;
+    padding-top: 24;
+}
+
+.avatarFemale button{
+    text-align: center;
+    position: relative;
+    width: 20%;
+    background-color: orange;
+    font-size: 150%;
+    left: 40%;
+}
+.or{
+    display: inline-block;
+    background-color: orange;
+    font-size: 150%;
+    border-radius: 50%;
+}
+.workerAvatar img{
+    width: 10%;
+}
