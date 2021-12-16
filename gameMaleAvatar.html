@@ -2,28 +2,56 @@
 
 <head>
     <script src="logic.js"></script>
+    <link rel="stylesheet" href="custom.css">
     <title>Home</title>
 </head>
 
-<body style="background-color: black;">
-    <button onclick="addCoins(giveMoney)">Click</button>
-    Coins: <span id="addingCoins">0</span>
+<body>
+    <button class="gameButtons" onclick="addCoins(giveMoney);playAudio('./Sounds/coinCollect.mp3')">Click</button>
+    <p class="texts"> Coins:</p> <span class="countersAndPrices" id="addingCoins">0</span> <img class="coin"
+        src="Images/coin.png" alt="Photo">
     <div></div>
-    Workers: <span id="addWorker">0</span>
+    <p class="texts">Workers:</p> <span class="countersAndPrices" id="addWorker">
+        <p class="texts">0 </p>
+    </span>
+
     <div>
-        <button onclick="buyWorker()">Buy worker</button><span id="workersPrice">10</span> 
-        <span><button onclick="buyFiveWorkers()">Buy 5 Workers</button></span> <span id="fiveWorkers">45</span>
-        <span><button onclick="buyTenWorkers()">Buy 10 Workers</button></span> <span id="tenWorkers">85</span>
+        <button class="gameButtons" onclick="buyWorker()">Buy worker</button><span class="countersAndPrices"
+            id="workersPrice">10</span>
+        <img class="coin" src="Images/coin.png" alt="Photo">
+        <span><button class="gameButtons" onclick="buyFiveWorkers()">Buy 5 Workers</button></span> <span
+            class="countersAndPrices" id="fiveWorkers">45</span>
+        <img class="coin" src="Images/coin.png" alt="Photo">
+
+        <span><button class="gameButtons" onclick="buyTenWorkers()">Buy 10 Workers</button></span> <span
+            class="countersAndPrices" id="tenWorkers">85</span>
+        <img class="coin" src="Images/coin.png" alt="Photo">
 
     </div>
     <div></div>
-    Updates:  <span id="updates">0;</span>
+    <p class="texts"> Updates: </p><span class="countersAndPrices" id="updates">0;</span>
     <div></div>
-    <button onclick="upgrateClick()">Upgrate</button> <span id="updatePrice">14</span>
-    <button onclick="buySunsetBackground()">Buy Sunset Background</button> <span id="sunset">1500</span>
-    <div class="workerAvatar">
-    <img src="Images/workerAvatar.jpg" >
+    <button class="gameButtons" onclick="upgrateClick()">Upgrate</button> <span class="countersAndPrices"
+        id="updatePrice">14</span>
+    <img class="coin" src="Images/coin.png" alt="Photo">
+
+    <button class="gameButtons" onclick="buySunsetBackground()">Buy Sunset Background</button> <span
+        class="countersAndPrices" id="sunset">1500</span>
+    <img class="coin" src="Images/coin.png" alt="Photo">
+    <div class="register">
+        <img src="Images/avatarMale.png" alt="Photo">
+        <p id="demo"></p>
     </div>
+    <div class="workerAvatar">
+        <p1 id="p1Text"></p1>
+        <p id="nextButton">Hello adventurer, thank you for choosing to come and help us.</p>
+        <img id="workerImage" src="Images/workerAvatar.png" alt="Photo">
+        <button id="nextButton1" class="nextButon1"
+            onclick="inputAdding(input);playAudio('./Sounds/popUp.mp3')">Next</button>
+        <button id="finishButton" class="finishButtonUnvisible" onclick="nameUser()">Finish</button>
+
+    </div>
+
 </body>
 
 </html>

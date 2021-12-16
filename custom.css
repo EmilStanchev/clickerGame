@@ -1,10 +1,29 @@
+.gameButtons{
+    font-size: 150%;
+    background-image: url(Images/Background1.jpg);
+    color: white;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 .heading{
     border-radius: 50%;
     text-align: center;
 }
 
 .wrapper{
+    display: flex;
     width: 100%;
+    align-items: center;
+    justify-content: center;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 
@@ -13,12 +32,21 @@
     margin-top: 2%;
     margin-left: 1%;
     width: 40%;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
  .avatarMale img{    
     width: 80%;
     display: inline-block;
-
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
  .avatarMale button{
     text-align: center;
@@ -27,16 +55,31 @@
     width: 12%;
     background-color: orange;
     font-size: 150%;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 .avatarFemale{
     display: inline-block;
     width: 40%;
     margin-left:10%;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 
 }
 .avatarFemale img{
     width: 100%;
     padding-top: 24;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .avatarFemale button{
@@ -46,13 +89,114 @@
     background-color: orange;
     font-size: 150%;
     left: 40%;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 .or{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: orange;
     font-size: 150%;
     border-radius: 50%;
+    margin-left: 5%;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.workerAvatar{
+    width: 60%;
+    margin-top: -3%;
+    margin-left: 35%;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 .workerAvatar img{
+    width: 15%;
+    margin-left: 85%;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.workerAvatar p{
+    margin-left: 85%;
+    font-size: 120%;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+.workerAvatar button{
+    margin-left: 87%;
+    display: inline-block;
+    font-size: 120%;
+    background-color: orange;
     width: 10%;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#p1Text{
+    visibility: hidden;
+}
+.p1visible{
+    visibility: visible;
+}
+.unvisible{
+    visibility: hidden;
+}
+.register{
+    margin-top: -9%;
+    margin-left: 70%;
+}
+.register img{
+    width: 90%;
+}
+.finishButtonUnvisible{
+    visibility: hidden;
+}
+.visibleElements{
+    visibility: visible;
+}
+.coin{
+    width: 3%;
+    margin-left: -0.5%;
+    margin-top:-8%;
+    display: inline-block;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.texts{
+    display: inline-block;
+    margin: 0%;
+    font-size: 150%;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.countersAndPrices{
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
